@@ -1,0 +1,9 @@
+{
+  "snapshot_id": "example-snapshot",
+  "schema_version": 1,
+  "target": "mock-channel",
+  "items": [
+    {"object_key": "ORDER-001:ITEM-A", "payload": {"message": "request quote"}},
+    {"object_key": "ORDER-002:ITEM-B", "payload": {"message": "request quote"}}
+  ]
+}
